@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('checkout repo') {
 			steps {
-				git url: 'https://github.com/lerndevops/samplejavaapp.git'
+				git url: 'https://github.com/saadkhattak/samplejavaapp.git'
             }
         }
         stage('build artifact') {
