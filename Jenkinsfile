@@ -5,7 +5,7 @@ pipeline {
       steps {
         git 'https://github.com/saadkhattak/samplejavaapp.git'
         sh '/opt/apache-maven-3.6.3/bin/mvn compile'
-        sleep 10
+        sleep 5
       }
     }
 
